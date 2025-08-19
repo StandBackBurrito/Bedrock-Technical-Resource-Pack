@@ -85,6 +85,7 @@
         "swimming.legs": "animation.player.swim.legs",
         "riding.arms": "animation.player.riding.arms",
         "riding.legs": "animation.player.riding.legs",
+        "riding.root": "controller.animation.player.root",
         "holding": "animation.player.holding",
         "brandish_spear": "animation.humanoid.brandish_spear",
         "charging": "animation.humanoid.charging",
