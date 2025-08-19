@@ -1,16 +1,16 @@
 {
-  "format_version" : "1.10.0",
+  "format_version" : "1.21.0",
   "animation_controllers" : {
     "controller.animation.spawn_control_plyr" : {
       "initial_state" : "default",
       "states" : {
         "default" : {
           "transitions" : [
-            { "spawn4" : "query.is_local_player && !query.is_in_ui && v.spawn_toggle2 == 1" },
-            { "spawn6" : "query.is_local_player && !query.is_in_ui && v.spawn_toggle2 == 2" },
-            { "spawn8" : "query.is_local_player && !query.is_in_ui && v.spawn_toggle2 == 3" },
-            { "spawn10" : "query.is_local_player && !query.is_in_ui && v.spawn_toggle2 == 4" },
-            { "spawn12" : "query.is_local_player && !query.is_in_ui && v.spawn_toggle2 == 5" }
+            { "spawn4" : "query.is_local_player('this') && !query.is_in_ui && v.spawn_toggle2 == 1" },
+            { "spawn6" : "query.is_local_player('this') && !query.is_in_ui && v.spawn_toggle2 == 2" },
+            { "spawn8" : "query.is_local_player('this') && !query.is_in_ui && v.spawn_toggle2 == 3" },
+            { "spawn10" : "query.is_local_player('this') && !query.is_in_ui && v.spawn_toggle2 == 4" },
+            { "spawn12" : "query.is_local_player('this') && !query.is_in_ui && v.spawn_toggle2 == 5" }
           ]
         },
         "spawn4" : {

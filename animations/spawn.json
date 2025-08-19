@@ -1,14 +1,14 @@
 {
-  "format_version" : "1.8.0",
+  "format_version" : "1.21.0",
   "animations" : {
     "animation.spawn4_plyr": {
       "animation_length": 86399.9,
       "loop": true,
       "particle_effects": {
         "0.0": [
-          { "effect": "spawn4_xz", "pre_effect_script": "v.source = 'player'; v.p_cap = 1; v.uv_x = 0; v.uv_z = 1;" },//pink
-          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'player'; v.p_cap = 2; v.rot = 0; v.uv_x = 0; v.uv_z = 0;" },//green
-          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'player'; v.p_cap = 2; v.rot = 90; v.uv_x = 1; v.uv_z = 0;" },//yellow
+          { "effect": "spawn4_xz", "pre_effect_script": "v.source = 'player'; v.p_cap = 1; v.uv_x = 0; v.uv_z = 1;" },
+          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'player'; v.p_cap = 2; v.rot = 0; v.uv_x = 0; v.uv_z = 0;" },
+          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'player'; v.p_cap = 2; v.rot = 90; v.uv_x = 1; v.uv_z = 0;" },
           { "effect": "spawn_marker", "pre_effect_script": "v.source = 'player'; v.p_cap = 1; v.uv_z = 0;" }
         ]
       }
@@ -18,7 +18,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (5*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (4*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -31,7 +30,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-3*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-4*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (5*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (4*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -44,7 +42,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-3*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-4*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-5*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (5*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (4*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -57,7 +54,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-3*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-4*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (5*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (4*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -86,7 +82,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (7*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -103,7 +98,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-6*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (7*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -120,7 +114,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-5*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-6*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-7*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (7*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -137,7 +130,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-6*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (7*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -170,7 +162,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (9*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -191,7 +182,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-8*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (9*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -212,7 +202,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-7*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-8*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-9*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (9*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -233,7 +222,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-8*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (9*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -270,7 +258,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (12*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (11*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -295,7 +282,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-10*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-11*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (12*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (11*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -320,7 +306,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-9*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-10*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-11*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (12*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (11*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -345,7 +330,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-10*16)-0.1;v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-11*16)-0.1;v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (12*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (11*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'player'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -387,9 +371,9 @@
       "particle_effects": {
         "0.0": [
           { "effect": "spawn_marker", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 1; v.uv_z = 0;" },
-          { "effect": "spawn4_xz", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 1; v.uv_x = 0; v.uv_z = 1;" },//pink
-          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 2; v.rot = 0; v.uv_x = 0; v.uv_z = 0;" },//green
-          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 2; v.rot = 90; v.uv_x = 1; v.uv_z = 0;" }//yellow
+          { "effect": "spawn4_xz", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 1; v.uv_x = 0; v.uv_z = 1;" },
+          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 2; v.rot = 0; v.uv_x = 0; v.uv_z = 0;" },
+          { "effect": "spawn4_y", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 2; v.rot = 90; v.uv_x = 1; v.uv_z = 0;" }
         ]
       }
     },
@@ -398,7 +382,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (5*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (4*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -411,7 +394,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-3*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-4*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (5*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (4*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -424,7 +406,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-3*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-4*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-5*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (5*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (4*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -437,7 +418,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-3*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-4*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (5*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 48; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (4*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -466,7 +446,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (7*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -483,7 +462,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-6*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (7*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -500,7 +478,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-5*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-6*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-7*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (7*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (6*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -517,7 +494,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-5*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-6*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (7*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 64; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (6*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -550,7 +526,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (9*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -571,7 +546,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-8*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (9*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -592,7 +566,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-7*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-8*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-9*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (9*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (8*16)+0.1; v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -613,7 +586,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-7*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-8*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (9*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 80; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (8*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -650,7 +622,6 @@
       "loop": true,
       "particle_effects": {
         "0.0": [
-          //x
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (12*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (11*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16); v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -675,7 +646,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-10*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-11*16); v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //z
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (12*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (11*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16); v.dir_x = 0; v.dir_z = -1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
@@ -700,7 +670,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-9*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 9; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-10*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 10; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (-11*16); v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 11; v.uv_size_x = 1;" },
-          //xb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (12*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (11*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (10*16)+0.1;v.re_pos_z = 0; v.dir_x = 1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
@@ -725,7 +694,6 @@
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-9*16)-0.1; v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-10*16)-0.1;v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 0; v.off_pos_z = 8; v.re_pos_x = (-11*16)-0.1;v.re_pos_z = 0; v.dir_x = -1; v.dir_z = 0; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
-          //zb
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (12*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (1*8); v.size_z = 114; v.uv_x = 11; v.uv_z = 23; v.uv_size_x = 1;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (11*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (3*8); v.size_z = 114; v.uv_x = 10; v.uv_z = 22; v.uv_size_x = 3;" },
           { "effect": "big_spawn", "pre_effect_script": "v.source = 'armor_stand'; v.p_cap = 96; v.off_pos_x = 8; v.off_pos_z = 0; v.re_pos_x = 0; v.re_pos_z = (10*16)+0.1; v.dir_x = 0; v.dir_z = 1; v.size_x = (5*8); v.size_z = 114; v.uv_x = 9; v.uv_z = 21; v.uv_size_x = 5;" },

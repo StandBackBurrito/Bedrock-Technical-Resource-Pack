@@ -1,12 +1,12 @@
 {
-  "format_version" : "1.10.0",
+  "format_version" : "1.21.0",
   "animation_controllers" : {
     "controller.animation.sim_control_plyr" : {
       "initial_state" : "default",
       "states" : {
         "default" : {
           "transitions" : [
-            { "show" : "query.is_local_player && !query.is_in_ui && v.spawn_toggle2 == 6" }
+            { "show" : "query.is_local_player('this') && !query.is_in_ui && v.spawn_toggle2 == 6" }
           ]
         },
         "show" : {
