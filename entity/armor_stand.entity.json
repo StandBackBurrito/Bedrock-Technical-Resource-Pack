@@ -1,9 +1,9 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.21.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "minecraft:armor_stand",
-      "min_engine_version": "1.8.0",
+      "min_engine_version": "1.21.1",
       "materials": {
 	"be_tech_rp": "be_tech_rp"
       },
@@ -77,8 +77,8 @@
 	  "v.beacon_show = query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:emerald_block', 'minecraft:gold_block', 'minecraft:diamond_block', 'minecraft:iron_block', 'minecraft:netherite_block');"
         ],
         "animate": [
-          "controller.pose", //vanilla
-          "controller.wiggling", //vanilla
+          "controller.pose",
+          "controller.wiggling",
 	  
 	  {"guardian_spots": "v.guardian_show"},
 	  {"density": "v.density_show"},
@@ -86,7 +86,7 @@
 	  {"buried_treasure": "v.treasure_show"},
 	  {"outpost_spots": "v.outpost_show"},
 	  {"spawner_radius": "v.spawner_show && variable.armor_stand.pose_index > 0"},
-	  "scale", //structura
+	  "scale",
 	  "sim_control_armr",
 	  "spawn_control_armr",
 	  "beacon_control_armr"
@@ -123,7 +123,7 @@
 	"beacon_out": "addon:beacon_out"
       },
       "render_controllers": [
-        "controller.render.armor_stand", //vanilla
+        "controller.render.armor_stand",
 	
 	{ "controller.render.density": "v.density_show" },
 	{"controller.render.guardian_spots": "v.guardian_show"},
@@ -141,7 +141,7 @@
 	{"controller.render.sugarcane": "v.sugarcane_show"},
 	{"controller.render.crop_water": "v.crop_show"},
         {"controller.render.spider_blocking": "v.spider_show"},
-	"controller.render.armor_stand.ghost_blocks" //structura
+	"controller.render.armor_stand.ghost_blocks"
       ]
     }
   }

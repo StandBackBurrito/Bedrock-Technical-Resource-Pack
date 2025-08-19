@@ -1,5 +1,5 @@
 {
-  "format_version" : "1.10.0",
+  "format_version" : "1.21.0",
   "animation_controllers" : {
     "controller.animation.slime_control" : {
       "initial_state" : "default",

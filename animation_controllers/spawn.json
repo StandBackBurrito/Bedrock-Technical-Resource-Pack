@@ -1,5 +1,5 @@
 {
-  "format_version" : "1.10.0",
+  "format_version" : "1.21.0",
   "animation_controllers" : {
     "controller.animation.spawn_control_plyr" : {
       "initial_state" : "default",
